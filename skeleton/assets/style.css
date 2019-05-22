@@ -1,0 +1,42 @@
+
+body {
+  line-height: 1.5;
+  font-family: "Arial, sans-serif";
+}
+h2 {
+  font-size: 32px;
+}
+h1 {
+  font-size: 38px;
+}
+.ingredients-list {
+  list-style: square inside;
+  color: rgb(55, 245, 26);
+  border: 5px solid black; 
+}
+
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+ol {
+  list-style: circle;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.user_review h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
